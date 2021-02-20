@@ -43,7 +43,7 @@ class Calculator {
             return 0;
 
         int[] fibArray = new int[n + 1];
-        fibArray[0] = 1;
+        fibArray[0] = 0;
         fibArray[1] = 1;
 
         for(int i = 2; i <= n; i++) {
@@ -62,7 +62,7 @@ class Calculator {
     if int a = 16 then this method returns: 10000
      */
     String intToBinaryNumber(int n){
-        return null;
+        return Integer.toBinaryString(n);
     }
 
     /*
